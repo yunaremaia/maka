@@ -532,7 +532,6 @@ function astryxToolStatus(item: ToolActivityItem): ChatToolCallItem['status'] {
     case 'errored':
     case 'interrupted': return 'error';
     case 'running': return 'running';
-    default: return 'pending';
   }
 }
 
